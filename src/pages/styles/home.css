@@ -1,0 +1,13 @@
+.products-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 45vh;
+}
+
+.products-container__title {
+    text-align: center;
+    margin-top: 8%;
+    text-decoration: underline;
+}

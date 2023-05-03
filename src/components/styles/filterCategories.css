@@ -1,0 +1,32 @@
+.categories__title {
+    text-align: center;
+    margin: 15px;
+    font-size: 1.8em;
+    color: rgb(20, 20, 22);
+}
+
+.categories__list {
+    display: flex;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.categories__all {
+    font-size: 1.2em;
+    border: 1px solid rgb(17, 17, 18);
+    border-radius: 5px;
+    padding: 2px;
+    background-color: rgb(22, 22, 22);
+    color: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.categories__items {
+    font-size: 1.1em;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}

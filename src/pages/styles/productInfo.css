@@ -1,0 +1,38 @@
+.similar-products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 150px;
+}
+
+.similar-products__title {
+    font-size: 2.0em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: max-content;
+    text-align: center;
+    padding: 10px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.similar-products-container {
+    width: 70%;
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@media (min-width: 1040px) {
+    .similar-products__title{
+        position: relative;
+        bottom: 300px;
+    }
+    .similar-products-container{
+        position: relative;
+        bottom: 200px;
+    }
+  }

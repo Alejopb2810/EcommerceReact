@@ -1,0 +1,18 @@
+.order-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.order__buttonA {
+    margin-right: 10px;
+}
+
+.order__buttonA,
+.order__buttonD {
+    font-size: 1.2em;
+    background-color: rgb(23, 22, 24);
+    color: #fff;
+    border-radius: 5px;
+}

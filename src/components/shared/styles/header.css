@@ -1,0 +1,19 @@
+.header {
+    background-color: rgb(186, 186, 177);
+    height: 10%;
+}
+
+.header__list {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.1em;
+    color: rgb(9, 9, 9);
+    text-decoration: underline;
+}
+
+.header__img {
+    width: 8%;
+    height: auto;
+}

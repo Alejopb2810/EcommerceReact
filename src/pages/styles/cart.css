@@ -1,0 +1,45 @@
+.cart__container {
+    min-height: 75vh;
+}
+
+.cart__title {
+    text-align: center;
+    font-size: 2.2em;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.cart__product {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3em;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.cart__footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(6, 6, 6);
+}
+
+.cart__span {
+    font-size: 1.8em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 4px;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+.cart__priceTotal {
+    font-size: 1.5em;
+}
+
+.cart__btn {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}

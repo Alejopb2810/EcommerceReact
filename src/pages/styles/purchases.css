@@ -1,0 +1,14 @@
+.purchase-section {
+    background-image: linear-gradient(90deg, rgb(30, 30, 48), rgb(49, 49, 52));
+}
+
+.purchase__title {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.8em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
